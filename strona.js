@@ -1,7 +1,7 @@
 let imie = prompt("Podaj swoje imię:");
 let liczba1 = parseFloat(prompt("Podaj pierwszą liczbę:"));
 let liczba2 = parseFloat(prompt("Podaj drugą liczbę:"));
-let dzialanie = prompt("Podaj działanie które chcesz wpisać");
+let dzialanie = prompt("Podaj działanie które chcesz wpisać")
 
 if (dzialanie === "=") {
     wynik = liczba1 + liczba2;
